@@ -1,7 +1,7 @@
 {
     "name": "z720/pico_scheduled_post",
     "description": "Post/Page scheduling in PicoCMS",
-    "license": "http://opensource.org/licenses/MIT",
+    "license": "MIT",
     "authors": [
         {
             "name": "Sebastien Erard",
@@ -12,5 +12,8 @@
       "classmap": [ "Pico_Scheduled_Post.php" ]
     },
     "require": {
+    },
+    "suggest": {
+      "gilbitron/Pico": "~0.8",
     }
 }
