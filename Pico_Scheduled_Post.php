@@ -16,7 +16,7 @@ class Pico_Scheduled_Post {
 		$this->now = time();
 		$pages = array_filter($pages, array($this, 'isPublished'));
 	}
-gittag
+
 	protected function isPublished($page) {
 		if(isset($page['date']) && (strtotime($page['date']) - $this->now) > 0) {
 			return false;
